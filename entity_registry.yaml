@@ -1,0 +1,90 @@
+media_player.space_cave_tv:
+  platform: cast
+  unique_id: 893467c3-b44c-309f-c4a9-be344369e8a6
+media_player.02_terrarium:
+  platform: sonos
+  unique_id: RINCON_949F3E0D3E4C01400
+media_player.07_space_cave:
+  platform: sonos
+  unique_id: RINCON_949F3E68D40201400
+media_player.4th_wc_entrance:
+  platform: sonos
+  unique_id: RINCON_949F3E0D835E01400
+media_player.5th_wc_entrance:
+  platform: sonos
+  unique_id: RINCON_949F3E0D52C401400
+media_player.5th_coffee:
+  platform: sonos
+  unique_id: RINCON_949F3E0D5CA801400
+media_player.01_projects:
+  platform: sonos
+  unique_id: RINCON_949F3E68D3C001400
+media_player.5th_badstua:
+  platform: sonos
+  unique_id: RINCON_949F3E0D5F5801400
+media_player.4th_jackets:
+  platform: sonos
+  unique_id: RINCON_949F3E0D86AC01400
+media_player.4th_wc_sinsen:
+  platform: sonos
+  unique_id: RINCON_949F3E0D313601400
+media_player.03_meetings:
+  platform: sonos
+  unique_id: RINCON_949F3E68D3DB01400
+media_player.4th_wc_urinal:
+  platform: sonos
+  unique_id: RINCON_949F3E0CFDA201400
+media_player.5th_wc_shower:
+  platform: sonos
+  unique_id: RINCON_949F3E0D5F7001400
+media_player.5th_wc_middle:
+  platform: sonos
+  unique_id: RINCON_949F3E0D52AC01400
+media_player.4th_wc_middle:
+  platform: sonos
+  unique_id: RINCON_949F3E0CFEF001400
+media_player.5th_wc_sinsen:
+  platform: sonos
+  unique_id: RINCON_949F3E0D605601400
+media_player.06_carpet_room:
+  platform: sonos
+  unique_id: RINCON_949F3E68D3A801400
+media_player.5th_kitchen:
+  platform: sonos
+  unique_id: RINCON_949F3EB004CC01400
+media_player.5th_common:
+  platform: sonos
+  unique_id: RINCON_949F3E262FBE01400
+media_player.4th_common:
+  platform: sonos
+  unique_id: RINCON_949F3E262E0401400
+media_player.bedroom:
+  platform: cast
+  unique_id: 0093b4e5-75ed-e5f6-e74c-51238a53a614
+media_player.bathroom_speaker:
+  platform: cast
+  unique_id: 83b6d0fe-9ae3-a464-b814-498f2ec49428
+media_player.tv:
+  platform: cast
+  unique_id: 07375dc7-e1b5-88f3-d05b-90297b19e98d
+media_player.kitchen_speaker:
+  platform: cast
+  unique_id: b63db984-a905-c2a0-119a-6f2350e2ed4a
+media_player.multiroom:
+  platform: cast
+  unique_id: a7dcbbe8-8c2f-4667-ad96-8b9385a04757
+light.soverom:
+  platform: hue
+  unique_id: 00:17:88:01:02:dc:33:f2-0b
+light.gulvlampe:
+  platform: hue
+  unique_id: 00:17:88:01:02:77:a6:f9-0b
+light.bordlampe:
+  platform: hue
+  unique_id: 00:17:88:01:02:77:cc:51-0b
+light.hue_lightstrip_plus_1:
+  platform: hue
+  unique_id: 00:17:88:01:02:ac:b1:72-0b
+light.taklampe:
+  platform: hue
+  unique_id: 00:17:88:01:02:77:a4:91-0b

@@ -1,0 +1,63 @@
+default_view:
+  name: Home
+  view: yes
+  entities:
+    - group.living_room_lights
+    - group.dining_room_lights
+    - group.scenes_living_room
+
+
+## OTHER TABS (VIEWS) ##
+living_room_view:
+  name: Living Room
+  view: yes
+  entities:
+    # - sensor.portable_sensor_2_temperature
+    - group.living_room_lights
+    - group.scenes_living_room
+    - group.dining_room_lights
+    - media_player.living_room
+
+
+
+
+
+bedroom_view:
+  name: Bedroom
+  view: yes
+  entities:
+    - media_player.bedroom
+    - group.bedroom_lights
+
+
+bedroom_lights:
+  name: Bedroom Lights
+  entities:
+    - light.bedroom
+    - ligth.bed
+
+living_room_lights:
+  name: Living Room Lights
+  entities:
+    - light.gulvlampe
+    - light.bordlampe
+    #- switch.LWRF_DisplayCabinetLight
+    
+dining_room_lights:
+  name: Dining Room Lights
+  entities: 
+    - light.taklampe
+
+
+tracked_devices:
+  name: Tracked Devices
+  entities:
+    - device_tracker.samsung_s7
+
+
+scenes_living_room:
+  name: Scenes Living Room
+  entitites:
+    - scene.bright
+    - scene.cozy
+    - scene.movie
