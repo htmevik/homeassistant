@@ -68,6 +68,9 @@ tts:
 # Cloud
 cloud:
 
+# open RESTful API for headless HA
+api:
+
 # --- own entries ---
 # Google cast tv
 media_player:
@@ -83,8 +86,19 @@ device_tracker:
     port: 22
     ssh_key: ~/.ssh/id_rsa
     consider_home: 360
+ 
+sensor:
+  - platform: entur_public_transport
+    name: Transport
+    expand_platforms: true
+    show_on_map: true
+    stop_ids:
+      - 'NSR:StopPlace:58196'
 
 
-group: !include groups.yaml
+# - 'NSR:Quay:11115'
+
+
+#group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
